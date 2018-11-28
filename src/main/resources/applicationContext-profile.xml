@@ -12,7 +12,7 @@
 		<property name="locations">
 			<list>
 				<!-- 标准配置 -->
-				<value>classpath:config/config_#{systemProperties['run_env']}.properties</value>
+				<value>classpath:config/config_.properties</value>
 			</list>
 		</property>
 	</bean>
